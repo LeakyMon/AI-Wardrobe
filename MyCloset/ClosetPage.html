@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="../Webpage/home.css">
+    <script src="../Webpage/home.js"></script>
+</head>
+<body>
+    <section>
+        <div class="header">My Wardrobe</div>
+    </section>
+    <br><br><br>
+    <section>
+            <a class="Wardrobe Buttons">
+                <div class="card" id="topsCard">
+                    Tops
+                    <figure class="image">
+                        <img class="topIMG" src="../Stock Images/TShirt.webp">
+                    </figure>
+                    <script>
+                        document.getElementById("topsCard").addEventListener("click", function() {
+                            window.location.href = "Tops.html";
+                        });
+                        </script>
+                </div>
+                <div class="card" id="bottomsCard">
+                    Bottoms
+                    <figure class="image">
+                        <img class="topIMG" src="../Stock Images/Pants.webp">
+                    </figure>
+                    <script>
+                        document.getElementById("bottomsCard").addEventListener("click", function() {
+                            window.location.href = "Bottoms.html";
+                        });
+                    </script>
+                    
+                </div>
+                <div class="card" id="sneakerCard">
+                    Sneakers
+                    <figure class="image">
+                        <img class="topIMG" src="../Stock Images/Sneakers.webp">
+                    </figure>
+                    <script>
+                         document.getElementById("sneakerCard").addEventListener("click", function() {
+                        window.location.href = "Sneakers.html";
+                    });
+                  
+                    </script>
+                </div>
+                <div class="card" id="hatCard">
+                    Headwear
+                    <figure class="image">
+                        <img class="topIMG" src="../Stock Images/Hat.webp">
+                        
+                    </figure>
+                    <script>
+                    document.getElementById("hatCard").addEventListener("click", function() {
+                        window.location.href = "Hats.html";
+                    });
+                    </script>
+                </div>
+                
+            </a>
+        
+    </section>
+</body>
+</html>
